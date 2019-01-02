@@ -56,7 +56,7 @@ App = {
     var electionInstance;
     var loader = $("#loader");
     var content = $("#content");
-
+    //Asynchronous, so show the loader and hide the contents for now
     loader.show();
     content.hide();
 
@@ -86,7 +86,7 @@ App = {
           var voteCount = candidate[2];
 
           // Render candidate Result
-          var candidateTemplate = "<tr><th>" + id + "</th><td>" + name + "</td><td>" + voteCount + "</td></tr>"
+          var candidateTemplate = "<tr><th>" + id + "</th><td>" + name + "</td><td>" + voteCount + "</td></tr>";
           candidatesResults.append(candidateTemplate);
 
           // Render candidate ballot option

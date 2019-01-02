@@ -1258,12 +1258,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xdd5b557a0eEB50568F5Ad4163BD7077F83373C37",
-      "transactionHash": "0x47289465ab756631847c9a794a1cbfb42bbc3e6b6285bbd5963d9a18252674c8"
+      "address": "0xa60291737d2877ABDd33D427EAC6c35d9c51202c",
+      "transactionHash": "0xcf09865a6c18617b3a964c029ba2c5352007f3bf4b1a3c70a193a1b21c4f3cf2"
     }
   },
   "schemaVersion": "3.0.0",
-  "updatedAt": "2019-01-02T07:17:43.466Z",
+  "updatedAt": "2019-01-02T08:11:23.872Z",
   "devdoc": {
     "methods": {}
   },
