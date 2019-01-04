@@ -8,6 +8,7 @@ App = {
     return App.initWeb3();
   },
 
+
   initWeb3: function() {
     // TODO: refactor conditional
     if (typeof web3 !== 'undefined') {
@@ -108,6 +109,7 @@ App = {
   },
 
   castVote: function() {
+    //Create a method for when a participant votes for one of the candidates
     var candidateId = $('#candidatesSelect').val();
     App.contracts.Election.deployed().then(function(instance) {
       return instance.vote(candidateId, { from: App.account });
