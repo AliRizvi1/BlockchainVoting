@@ -4,6 +4,15 @@ A full-stack DApp created on the Ethereum blockchain using Solidity, node.js and
 Initially using a framework for a test app but the end product should provide users with a way to vote against the public blockchain.
 Will be used in the clubs I participate in.
 
+Steps to run the code:
+
+1. Download Ganache, MetaMask, Truffle framework, and npm (which includes node.js) if you don't already have it
+2. Open Ganache and ensure that a test blockchain is running locally on your computer.
+3. Navigate to the application folder in your Bash terminal and use "truffle migrate" to migrate the Solidity code into the truffle framework.
+4. Setup MetaMask to your local Ganache server.
+4. Then, use "npm run dev" in terminal to run the liteserver. Note: the liteserver was contained in the framework application given by Truffle.
+5. A locally hosted webpage should appear with the voting results.
+
 <img src="http://www.dappuniversity.com/dapp_diagram.png" height="210px"></img></br>
 
 
