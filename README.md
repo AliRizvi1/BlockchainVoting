@@ -1,5 +1,7 @@
 #Blockchain Voting
 
+Please note error: with Solidity 5.0 the keyword "emit" is required before event invocations. However not sure of current implementation for this app.
+
 A full-stack DApp created on the Ethereum blockchain using Solidity, node.js and HTML for the front-end.
 Initially using a framework for a test app but the end product should provide users with a way to vote against the public blockchain.
 Will be used in the clubs I participate in.
