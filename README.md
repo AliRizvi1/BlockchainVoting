@@ -1,4 +1,4 @@
-#Blockchain Voting
+# Blockchain Voting #
 
 A full-stack DApp created on the Ethereum blockchain using Solidity, node.js and HTML for the front-end.
 Initially using a framework for a test app but the end product should provide users with a way to vote against the public blockchain.
@@ -12,6 +12,11 @@ Steps to run the code:
 4. Setup MetaMask to your local Ganache server.
 4. Then, use "npm run dev" in terminal to run the liteserver. Note: the liteserver was contained in the framework application given by Truffle.
 5. A locally hosted webpage should appear with the voting results.
+
+Next steps: 
+* Implementing with more than two candidates (change Solidity files, test files, and app.js)
+* Improving HTML and CSS front-end design
+
 
 <img src="http://www.dappuniversity.com/dapp_diagram.png" height="210px"></img></br>
 

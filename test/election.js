@@ -3,6 +3,9 @@ var Election = artifacts.require("./Election.sol");
 contract("Election", function(accounts) {
   var electionInstance;
 
+  //Applying same principles with more than two candidates? Have to change the Solidity file, test file, and probably
+  //HTML as well
+
   it("initializes with two candidates", function() {
     return Election.deployed().then(function(instance) {
       return instance.candidatesCount();
