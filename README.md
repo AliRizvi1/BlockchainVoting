@@ -18,6 +18,7 @@ Steps to run the code:
 Next steps: 
 * Implementing with more than two candidates (change Solidity files, test files, and app.js)
 * Improving HTML and CSS front-end design
+* Using SQL that updates with the blockchain to store the votes and candidates so the site doesn't constantly pull from the blockchain
 
 
 <img src="http://www.dappuniversity.com/dapp_diagram.png" height="210px"></img></br>
